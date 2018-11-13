@@ -1,33 +1,26 @@
 ---
-title: 'Code Ocean: publishing notebooks reproducibly'
+title: 'Code Ocean for Jupyter & JupyterLab'
 author: "Seth Green"
 date: "November 13, 2018"
 output:
-  ioslides_presentation:
-    fig_width: 3 
-    fig_height: 2 
-  beamer_presentation: 
-    fig_width: 3 
-    fig_height: 2 
-  slidy_presentation:
-    fig_width: 3
-    fig_height: 2
+  beamer_presentation:
+    theme: 'Boadilla'
 ---
 
 ## Code Ocean
 
 - Code Ocean is, more or less:
-  * JupyterLab IDE + modifications
+  * JupyterLab IDE + modificationss
   * A robust dependency management system
   * A publishing platform (DOIs & stable URLs)
   * A sharing platform (embed your 'compute capsules' on webpages)
   
-![](../JupyterDay/fractal-capsule-view.png)
+![](./fractal-capsule-view.png){ width=300px }
 
 ## Publishing reproducible Jupyter Notebooks 
 Notebook + environment + `nbconvert` = a rendered HTML
 
-![](../JupyterDay/rendered-html.png)
+![](./rendered-html.png){ width=300px }
 
 ## Interactive sessions 
 https://codeocean.com/2018/11/13/fractal-generation-with-l-systems-colon-jupyter-and-jupyterlab/code
@@ -45,8 +38,11 @@ https://codeocean.com/2018/11/13/fractal-generation-with-l-systems-colon-jupyter
 - Is this exportable?
 
 ## Reference Slide 1: Publishing on Code Ocean:
-![](../JupyterDay/contact-doi.png)
+- https://codeocean.com/2018/10/16/the-contact-hypothesis-re-evaluated-colon-code-and-data/code
+- Will have a DOI and link to your article's metadata
+
+![](./contact-doi.png){ width=300px }
 
 ## Reference Slide 2: Embedding on webpages & within articles
 - You can also embed your published capsule in your article's HTML page or on your personal webpage, a la https://ieeexplore.ieee.org/document/8410389/algorithms#algorithms:
-![](../JupyterDay/ieee.png)
+![](./ieee.png){ width=300px }
