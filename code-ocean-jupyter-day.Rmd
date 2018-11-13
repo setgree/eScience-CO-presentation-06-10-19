@@ -1,0 +1,52 @@
+---
+title: 'Code Ocean: publishing notebooks reproducibly'
+author: "Seth Green"
+date: "November 13, 2018"
+output:
+  beamer_presentation: 
+    fig_width: 3 
+    fig_height: 2 
+  ioslides_presentation:
+    fig_width: 3 
+    fig_height: 2 
+  slidy_presentation:
+    fig_width: 3
+    fig_height: 2
+---
+
+## Code Ocean
+
+- Code Ocean is, more or less:
+  * JupyterLab IDE + modifications
+  * A robust dependency management system
+  * A publishing platform (DOIs & stable URLs)
+  * A sharing platform (embed your 'compute capsules' on webpages)
+  
+![](../JupyterDay/fractal-capsule-view.png)
+
+## Publishing reproducible Jupyter Notebooks 
+Notebook + environment + `nbconvert` = a rendered HTML
+
+![](../JupyterDay/rendered-html.png)
+
+## Interactive sessions 
+https://codeocean.com/2018/11/13/fractal-generation-with-l-systems-colon-jupyter-and-jupyterlab/code
+
+- [Jupyter](https://help.codeocean.com/interactive-sessions/interactive-jupyter-sessions)
+
+- [JupyterLab](https://help.codeocean.com/interactive-sessions/interactive-jupyter-sessions)
+
+- Time for a live demonstration
+
+## Questions?
+- How is this different than Binder?
+- What is the uploading process like?
+- How are dependencies managed?
+- Is this exportable?
+
+## Reference Slide 1: Publishing on Code Ocean:
+![](../JupyterDay/contact-doi.png)
+
+## Reference Slide 2: Embedding on webpages & within articles
+- You can also embed your published capsule in your article's HTML page or on your personal webpage, a la https://ieeexplore.ieee.org/document/8410389/algorithms#algorithms:
+![](../JupyterDay/ieee.png)
