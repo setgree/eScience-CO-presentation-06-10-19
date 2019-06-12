@@ -9,9 +9,6 @@ output:
   slidy_presentation: default
 ---
 
-## A really important quote we should all think about
-“[A]n article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.” David Donoho, paraphrasing John Claerbout
-
 ## Code Ocean
 
 - Code Ocean is, more or less:
@@ -34,14 +31,14 @@ output:
 
 <center>![](./rendered-html.png)</center>
 
-## Interactive sessions 
+## Cloud Workstations 
 - https://codeocean.com/capsule/8962292/tree/v2
 
-- [Jupyter](https://help.codeocean.com/interactive-sessions/interactive-jupyter-sessions)
+- [Jupyter](https://help.codeocean.com/articles/1567434-jupyter-cloud-workstation-sessions)
 
-- [JupyterLab](https://help.codeocean.com/interactive-sessions/interactive-jupyter-sessions)
+- [JupyterLab](https://help.codeocean.com/articles/2366134-jupyterlab-cloud-workstation-sessions)
 
-- Time for a live demonstration
+- [Rstudio](https://help.codeocean.com/articles/2309243-using-rstudio-on-code-ocean)
 
 ## Questions?
 - How is this different than Binder?
@@ -50,8 +47,9 @@ output:
 - Is this exportable?
 - Whom is Code Ocean for? (All scientists)
 - What are the most pressing issues in computational reproducibility? (e.g., big data, confidential data, inferring system level dependencies from listed scientific libraries, adjudicating between many competing worthy aims, what language should we all be using....)
+
 ## Reference Slide 1: Publishing on Code Ocean:
-- https://codeocean.com/2018/10/16/the-contact-hypothesis-re-evaluated-colon-code-and-data/code
+- https://codeocean.com/capsule/8235972/tree/v6  
 - Will have a DOI and link to your article's metadata
 
 <center>![](./contact-doi.png)</center>
